@@ -56,19 +56,106 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header a.inicio {
+    color:#fff;
+    font-size: 1.6rem;
+}
 
+header nav a,
+header nav a:hover {
+    color:#fff;
+}
 
+.top-bar {
+    background-color:transparent;
+    height:4.2rem;
+    line-height: 4.2rem;
+}
 
+section.destacada {
+    position:relative;
+}
+section.destacada .contenido {
+    top:50%;
+    left:0;
+    width:100%;
+    position:absolute;
+    z-index:20;
+}
 
+section.destacada .contenido h1 {
+    padding:30px 50px;
+    border:1px solid #fff;
+    color:#fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin:0 auto;
+    width:60%;
+}
 
+section.agencia {
+    background-color: #ebeeed;
+    padding:10px;
+}
 
+section.agencia .borde {
+    border: 1px solid #aeb4b7;
+}
 
+section.agencia p {
+    margin-bottom: 40px;
+}
 
+section.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top:30px;
+}
 
+section.servicios small {
+    font-style: italic;
+}
 
+section.contacto {
+    background-color: #4f5962;
+    padding: 10px;
+    color:#fff;
+}
 
+section.contact .borde {
+    border: 1px solid #697279;
+}
 
+section.contacto .button {
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color:#fff;
+    padding:15px 50px;
+}
 
+footer {
+    background-color: #2d3235;
+    padding-top: 30px;
+}
+
+footer nav a,
+footer nav a:hover {
+    color:#fff;
+}
+
+footer hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top: 1px solid #595d60;
+    margin: 1rem 0;
+    padding:0;
+}
+
+footer p {
+    color:#fff;
+}
 
 /* ==========================================================================
    Media Queries

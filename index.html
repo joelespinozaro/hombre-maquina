@@ -14,68 +14,90 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <a href="./index.html">OnApps</a>
-        <div id="navegacion">
-            <nav>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Equipo de Trabajo</a></li>
-                <li><a href="#">Contacto</a></li>
-            </nav>
-        </div>
-
+        <header class="fixed">
+            <div class="top-bar">
+                <div class="row">
+                    <div class="large-4 columns">
+                        <a href="./index.html" class="inicio">OnApps</a>
+                    </div>
+                    <div class="large-6 large-offset-2 columns">
+                        <div id="navegacion">
+                            <nav class="inline-list right">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="servicios.html">Servicios</a></li>
+                                <li><a href="equipo.html">Equipo de Trabajo</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <section class="destacada">
             <div class="pattern"></div>
             <img src="img/h_index.jpg" alt="Imagen Index">
-            <div class="contenido">
-                <h1>
-                    <span>Diseñamos apps para empresas y organizaciones</span>
-                </h1>
+            <div class="contenido text-center">
+                    <h1>
+                            <span>Diseñamos apps para empresas y organizaciones</span>
+                    </h1>
             </div>
         </section>
 
-        <section class="agencia">
-            <div class="borde">
-                <h2>Somos una agencia de programación en aplicaciones móviles en México</h2>
-                <p>Somos especialistas y contamos con 12 años de experiencia</p>
-            </div>
+        <section class="agencia text-center">
+                <div class="borde">
+                        <h2>Somos una agencia de programación en aplicaciones móviles en Perú</h2>
+                        <p>Somos especialistas y contamos con 12 años de experiencia</p>
+                </div>
         </section>
 
         <section class="aplicaciones">
-            <h2>Aplicaciones, VideoJuegos y mucho más</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ad, fugit ipsam distinctio blanditiis aut sunt eos vero nisi quia, beatae facilis iste natus, aspernatur obcaecati asperiores id alias! Maiores.</p>
-            <img src="img/app-easy.png">
+                <h2 class="text-center">Aplicaciones, VideoJuegos y mucho más</h2>
+                <section class="row">
+                    <div class="large-8 columns">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ad, fugit ipsam distinctio blanditiis aut sunt eos vero nisi quia, beatae facilis iste natus, aspernatur obcaecati asperiores id alias! Maiores.</p>
+                    </div>
+                    <div class="large-4 columns">
+                        <img src="img/app-easy.png">
+                    </div>
+                </section>
         </section>
 
         <section class="servicios">
-            <h2>Conoce nuestros servicios, <span>te darás cuenta de lo que podemos hacer</span></h2>
-            <img src="img/serv_app.svg" alt="Servicio aplicaciones">
-            <img src="img/serv_web.svg" alt="Servicio Web">
-            <img src="img/serv_desarrollo.svg" alt="Servicio Desarrollo">
+                <h2 class="text-center">Conoce nuestros servicios, <span>te darás cuenta de lo que podemos hacer</span></h2>
+                <div class="row">
+                    <ul class="small-block-grid-3">
+                        <li><img src="img/serv_app.svg" alt="Servicio aplicaciones"></li>
+                        <li><img src="img/serv_web.svg" alt="Servicio Web"></li>
+                        <li><img src="img/serv_desarrollo.svg" alt="Servicio Desarrollo"></li>
+                    </ul>
+                </div>
         </section>
 
-        <section class="contacto">
-            <h2>¿Estás listo para comenzar? podemos ayudarte</h2>
-            <p>contáctanos en el siguiente enlace, cuéntanos de tu proyecto y nos pondremos en contacto a la brevedad.</p>
-            
-            <a href="">Solicitar Informes</a>
-        </section>
-
+        <section class="contacto text-center">
+                <h2>¿Estás listo para comenzar? podemos ayudarte</h2>
+                <p>contáctanos en el siguiente enlace, cuéntanos de tu proyecto y nos pondremos en contacto a la brevedad.</p>
+                
+                <a href="#" class="button large">Solicitar Informes</a>
+        </section>              
         <footer>
-            <nav>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Equipo de Trabajo</a></li>
-                <li><a href="#">Contacto</a></li>
-            </nav>
-            <nav>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Pinterest</a></li>
-                <li><a href="#">Flicker</a></li>
-            </nav>
+            <div class="row">
+                <nav class="large-6 columns inline-list">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Equipo de Trabajo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </nav>
+                <nav class="large-4 large-offset-2 columns inline-list">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Flicker</a></li>
+                </nav>
+                <hr>
+                <p class="text-center">Derechos Reservados bajo Licencia Creative Commons</p>
+            </div>
         </footer>
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
